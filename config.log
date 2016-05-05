@@ -1,0 +1,26 @@
+file ../ocelot/scripts/build_environment.py,line 152:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library GLEW... 
+scons: Configure: ".sconf_temp/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_0.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_0.o -c -O2 -Wall -I/usr/include .sconf_temp/conftest_0.c
+  |
+scons: Configure: Building ".sconf_temp/conftest_0" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |g++ -o .sconf_temp/conftest_0 .sconf_temp/conftest_0.o -L/usr/lib -lGLEW
+  |
+scons: Configure: (cached) no
+

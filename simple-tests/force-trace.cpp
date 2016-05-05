@@ -1,0 +1,2 @@
+namespace trace {void ForceTraceConfiguration()};
+
